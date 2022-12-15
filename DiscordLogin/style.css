@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+main{
+    background: rgb(153,191,255);
+    background: linear-gradient(0deg, rgba(153,191,255,1) 8%, rgba(36,47,171,1) 100%);
+    height: 62.6rem;
+    width: 100%;
+    /* opacity: 1; */
+    /* z-index: -1; */
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    height: 8rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 5rem;
+    transform: translateX(3rem);
+}
+
+main ul{
+    display: flex;
+}
+
+main ul li {
+    font-size: 1.7rem;
+    margin: 2rem;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+ul li a{
+    font-weight:500;
+    text-decoration: none;
+    color:white;
+    /* font-weight:bold; */
+}
+
+main a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main .btn{
+    padding: 1rem;
+    background-color: white;
+    border: white;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+main .btn:hover{
+    cursor: pointer;
+    color: #5865F2;
+    box-shadow: 1rem 1rem 1rem;
+}
+
+main .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51.8rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text{
+    color:white;
+    margin: 2rem;
+}
+
+.content .text h1{
+    font-size: 5.5rem;
+    font-family: 'Roboto Slab', serif;
+    margin: 2rem 0rem;
+    transform: translateY(-3rem);
+}
+
+.content .text p{
+    font-family: 'Roboto Slab', serif;
+    transform: translateY(-3rem);
+    margin: 0rem 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.btn2{
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 3rem;
+    border: white;
+    font-size: 1.9rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.btn3{
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 3rem;
+    border: white;
+    font-size: 1.9rem;
+    cursor: pointer;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+.btn2:hover{
+    color: #0d1eda;   
+}
+.btn3:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+.section{
+    margin: 0;
+    display: grid;
+    height: 60rem;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.section .section_content{
+    padding-left: 3rem;
+}
+
+.section img{
+    width: 90%;
+    padding-left: 10rem;
+}
+
+.section h1{
+    font-size: 4.5rem;
+    margin-bottom:3rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+.section p{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section2{
+    display: grid;
+    height: 60rem;
+    grid-template-columns: 1fr 1.5fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #f6f6f6;
+}
+
+.section2 img{
+    width: 70%;
+    padding-left: 6rem;
+}
+
+.text2{
+    padding-left: 18rem;
+}
+
+.text2 h1{
+    font-size: 4.5rem;
+    margin-bottom:3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text2 p{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section3{
+    margin: 0;
+    display: grid;
+    height: 60rem;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.section3 img{
+    width: 70%;
+    padding-left: 10rem;
+}
+
+.section3 h1{
+    font-size: 4.5rem;
+    margin-bottom:3rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+.section3 p{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    height: 110rem;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #f6f6f6;
+    text-align: center;
+    align-content: center;
+}
+
+.section4 img{
+    width: 80%;
+}
+
+.section4 .text4 h1{
+    font-size: 4.5rem;
+    margin-bottom:3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.section4 p{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn_download{
+    margin-top: 2.5rem;
+}
+.section4 .btn_download h1{
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.download{
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 3rem;
+    border: #5865F2;
+    background-color: #5865F2;
+    font-size: 1.9rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.download:hover{
+    background-color: #0d1eda;
+    box-shadow: 1px 2px 15px -2px rgba(0,0,0,0.75);
+}
+
+.download_btn2{
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 3rem;
+    border: #5865F2;
+    background-color: #0ac22f;
+    font-size: 1.9rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.download_btn2:hover{
+    background-color: #079d25;
+    box-shadow: 1px 2px 15px -2px rgba(0,0,0,0.75);
+}
+
+/* footer section */
+footer{
+    padding-top: 10rem;
+    background-color: black;
+    height: 54rem;
+    font-size: 1.56rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 17rem;
+    padding-left: 12rem;
+    
+}
+footer .contact h1{
+    color: #5865F2;    
+}
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+select{
+    margin-top: 2rem;
+    border: 0pc;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 0;
+}
+footer .icons{
+    display: flex;
+}
+footer a img{
+    width: 50%;
+    margin-left: 0rem;
+    margin-top: 1rem;
+}
+footer p{
+    color:#5865F2;
+}
+
+footer ul li{
+    font-size: 1.56rem;
+    color:white;
+    list-style: none;
+    margin: 1rem 0rem;
+    cursor: pointer;
+}
+
+footer ul li:hover{
+    text-decoration: underline;
+    
+}
+
+/* Media Queries */
+
+@media screen and (min-device-width: 375px)
+and (max-device-width: 667px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+
+
